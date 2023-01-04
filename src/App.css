@@ -1,0 +1,40 @@
+.App {
+  background-color: #282c34;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.App-Body{
+  margin-top: 30%;
+  text-align: center;
+  background-color: #282c34;
+  color: white;
+}
+.card-img-top{
+  height: 200px;
+  width: 200px;
+}
+.App-link {
+  color: #61dafb;
+}
